@@ -1,0 +1,15 @@
+.top-section-text{
+  width: 100%;
+  //position: relative;
+  //top: 100px;
+  &_food{
+    color: #f7ece6;
+    font-size: 72px;
+    font-family: 'Poppins', sans-serif;
+  }
+  &_p-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 10;
+    font-size: 30px;
+  }
+}

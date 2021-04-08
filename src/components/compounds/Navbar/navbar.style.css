@@ -1,8 +1,27 @@
 .navbar {
   width: 100%;
   height: 80px;
+}
+.navbar--is-absolute {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 3;
+}
+.navbar_navbar-con {
+  width: 90%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.navbar_logo {
+  color: #FE043C;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+}
+.navbar_user {
+  display: flex;
   align-items: center;
 }
 
