@@ -1,12 +1,13 @@
 .search-bar{
-  width: 35%;
-  background-color: white;
-display: flex;
+  width: 51%;
+  display: flex;
+background: wheat;
   input{
     width: 100%;
     padding: 25px;
     border: none;
-    background-color: white;
+    background: wheat;
+    outline: none;
 
   }
   button{

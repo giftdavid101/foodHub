@@ -1,0 +1,15 @@
+.arrows {
+  position: absolute;
+  top: 500px;
+  right: 70px;
+}
+.arrows_arrow-content {
+  display: flex;
+}
+
+.arrow {
+  width: 30%;
+  margin: 0 15px;
+}
+
+/*# sourceMappingURL=arrows.style.css.map */

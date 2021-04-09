@@ -1,5 +1,5 @@
 *{
-  outline: 1px solid grey;
+  /*outline: 1px solid grey;*/
   padding:0;
   margin:0;
   box-sizing: border-box;
@@ -12,26 +12,20 @@
   display: flex;
 
 }
-.nav-container{
-  width:100%;
-  /*max-width: 1440px;*/
-  /*padding: 5px;*/
-  margin: auto;
-}
+
 .content-container{
   width: 100%;
   max-width: 1280px;
   margin: auto;
+  margin-right: 0;
+
+
 
 }
 .container{
-
-
   width:100%;
-  /*max-width: 1280px;  */
   max-width: 1440px;
   margin: auto;
-  padding: 5px;
 }
 a{
   text-decoration: none;

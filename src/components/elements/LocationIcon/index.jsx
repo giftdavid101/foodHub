@@ -6,7 +6,7 @@ const Location = () => {
     return (
         <div className={'location'}>
              <div className={'location_location-name'}>
-                 <MdLocationOn size={30}/>
+                 <MdLocationOn size={35}/>
                  <span className={'hybrad'}>Hydrabad</span>
              </div>
         </div>
