@@ -7,7 +7,7 @@ import HomePage from "./pages/Homepage";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
 
         <Switch>
             <Route path={'/'} component={HomePage}/>

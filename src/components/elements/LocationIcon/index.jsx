@@ -1,10 +1,14 @@
 import React from 'react';
+import './locationicon.style.css'
+import {MdLocationOn} from 'react-icons/all'
 
 const Location = () => {
     return (
-        <div>
-
-
+        <div className={'location'}>
+             <div className={'location_location-name'}>
+                 <MdLocationOn size={30}/>
+                 <span className={'hybrad'}>Hydrabad</span>
+             </div>
         </div>
     );
 };

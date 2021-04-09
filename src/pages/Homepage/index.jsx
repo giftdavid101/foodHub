@@ -3,6 +3,7 @@ import DiscoverRestaurantTopSection from "../../components/compounds/DiscoverRes
 import './homepage.style.css';
 import Navbar from "../../components/compounds/Navbar";
 
+
 const HomePage = () => {
     return (
         <div className={'homepage container'}>

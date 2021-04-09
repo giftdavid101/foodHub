@@ -6,7 +6,7 @@ import './navbar.style.css';
 
 const Navbar= (absolute) => {
     return (
-        <div className={`navbar ${absolute?'navbar--is-absolute':''} container`}>
+        <div className={`navbar ${absolute?'navbar--is-absolute':''} content-container`}>
             <div className={'navbar_navbar-con '}>
                 <Link className={'navbar_logo '} to={'/'}>FoodHub</Link>
                 <div className={'navbar_nav-links'}>

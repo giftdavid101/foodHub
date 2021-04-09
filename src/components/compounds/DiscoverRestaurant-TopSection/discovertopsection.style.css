@@ -1,5 +1,9 @@
 .top-section {
   width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   position: relative;
   display: flex;
 }
@@ -13,51 +17,15 @@
   position: relative;
   top: 100px;
 }
-.top-section_left-partition_emages {
-  width: 100%;
-  position: relative;
-}
-.top-section_left-partition_emages_emage-con {
-  width: 40%;
-  height: 200px;
-}
-.top-section_left-partition_emages_emage-con img {
-  width: 100%;
-  height: 100%;
-}
 .top-section_right-partition {
   width: 30%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   height: 100vh;
   background: #FE043C;
   position: relative;
   z-index: 2;
-}
-
-.food-emage {
-  width: 50%;
-  position: absolute;
-  top: 10px;
-  right: -144px;
-  z-index: 4;
-}
-.food-emage img {
-  width: 100%;
-  height: 100%;
-}
-.food-emage img .food {
-  position: relative;
-}
-
-.lettuce-emage {
-  width: 30%;
-  position: absolute;
-  bottom: 367px;
-  left: 745px;
-  z-index: 3;
-}
-.lettuce-emage img {
-  width: 100%;
-  height: 100%;
 }
 
 /*# sourceMappingURL=discovertopsection.style.css.map */
