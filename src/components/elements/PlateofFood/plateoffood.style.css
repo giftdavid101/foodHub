@@ -1,0 +1,34 @@
+.plate-of-food {
+  width: 100%;
+  position: relative;
+}
+.plate-of-food_emage-holder {
+  position: relative;
+}
+.plate-of-food_emage-holder_dot-emage-container {
+  width: 40%;
+  position: relative;
+  z-index: -1;
+}
+.plate-of-food_emage-holder_dot-emage-container .dotemage {
+  width: 100%;
+}
+.plate-of-food_emage-holder_food-emage {
+  width: 85%;
+  position: absolute;
+  top: 45px;
+  right: 100px;
+}
+.plate-of-food_emage-holder_food-emage .food {
+  width: 100%;
+  height: 100%;
+}
+.plate-of-food_emage-holder_lettuce-emage {
+  width: 50%;
+  position: absolute;
+  bottom: 117px;
+  right: 152px;
+  z-index: -1;
+}
+
+/*# sourceMappingURL=plateoffood.style.css.map */

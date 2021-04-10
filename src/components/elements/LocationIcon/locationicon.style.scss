@@ -1,0 +1,18 @@
+.location {
+  width: 10%;
+  padding: 0 20px;
+  background: #FE043C;
+  color: white;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  position: absolute;
+  top:500px;
+
+  &_location-name {
+    display: flex;
+  }
+
+}
+.hybrad{
+  margin: 5px;
+}
