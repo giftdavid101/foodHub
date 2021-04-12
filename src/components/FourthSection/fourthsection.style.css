@@ -1,0 +1,13 @@
+.fourth-section {
+  width: 100%;
+}
+.fourth-section_fs-con {
+  display: flex;
+}
+.fourth-section_fs-con_fs-text_fst-title {
+  border-left: 15px solid #FE043C;
+  padding: 0 0 0 30px;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=fourthsection.style.css.map */

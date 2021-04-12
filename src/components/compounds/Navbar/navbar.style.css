@@ -1,28 +1,26 @@
 .navbar {
   width: 100%;
-  height: 80px;
-}
-.navbar--is-absolute {
-  position: absolute;
-  right: 0;
-  left: 0;
-  z-index: 3;
-}
-.navbar_navbar-con {
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 30px;
   align-items: center;
+  padding: 30px 0;
 }
-.navbar_logo {
-  color: #FE043C;
-  display: inline-block;
-  font-family: "Poppins", sans-serif;
-  font-size: 32px;
+.navbar .site-logo {
+  margin-right: 50px;
+}
+.navbar_nav-links {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 40px;
+  width: fit-content;
 }
 .navbar_user {
   display: flex;
   align-items: center;
+}
+.navbar_user-emage {
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=navbar.style.css.map */

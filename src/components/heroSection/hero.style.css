@@ -1,0 +1,9 @@
+.hero-background {
+  display: grid;
+  grid-template-columns: 1fr minmax(100px, 300px);
+}
+.hero-background > div:nth-child(2) {
+  background-color: red;
+}
+
+/*# sourceMappingURL=hero.style.css.map */

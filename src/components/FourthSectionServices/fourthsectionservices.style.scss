@@ -1,0 +1,55 @@
+.fourth-section-services{
+
+  width:100%;
+  margin: 50px 0;
+  &_fss-con{
+    width: 70%;
+   display: flex;
+    justify-content: space-between;
+
+  }
+}
+.one{
+  width: 100%;
+  display: flex;
+  //justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.two{
+
+}
+
+.scooter{
+width: 100%;
+  padding: 55px;
+
+}
+.scooter-text-div{
+  width: 200px;
+  text-align: justify;
+  padding-block-start: 100px;
+}
+.arr-div1{
+  display: flex;
+  position: relative;
+  padding: 40px;
+  right: 33px;
+
+ }.arr-div2{
+  display: flex;
+  position: relative;
+  padding: 40px;
+  left: 120px;
+
+ }
+.greater-arr{
+  width: 80px;
+  position: absolute;
+  left: 0;
+}.less-arr{
+  width: 80px;
+  position: absolute;
+  left: 0;
+}
+

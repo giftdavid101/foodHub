@@ -1,26 +1,25 @@
 import React from 'react';
 import DiscoverRestaurantTopSection from "../../components/compounds/DiscoverRestaurant-TopSection";
 import './homepage.style.css';
-import Navbar from "../../components/compounds/Navbar";
-import Location from "../../components/elements/LocationIcon";
 import SecondSection from "../../components/compounds/SecondSection";
+import HeroSection from "../../components/heroSection";
+import FourthSection from "../../components/FourthSection";
+
 
 
 
 const HomePage = () => {
     return (
-        <div className={'homepage container '}>
-            <Navbar absolute/>
-             <Location/>
+        <div className={'homepage'}>
+            <HeroSection/>
 
-            <div className={'content-container'}>
+            <div className={'container'}>
                 <DiscoverRestaurantTopSection/>
             </div>
 
-            <div className={'content-container'}>
-             <SecondSection/>
+            <div className={'container'}>
+                <SecondSection/>
             </div>
-
 
 
         </div>

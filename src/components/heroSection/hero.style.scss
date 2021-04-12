@@ -1,0 +1,11 @@
+.hero-section {
+
+}
+
+.hero-background {
+  display: grid;
+  grid-template-columns: 1fr minmax(100px, 300px);
+  > div:nth-child(2){
+    background-color: red;
+  }
+}

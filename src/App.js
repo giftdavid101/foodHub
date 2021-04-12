@@ -6,14 +6,13 @@ import HomePage from "./pages/Homepage";
 
 function App() {
   return (
-    <div className="App container">
-
+    <div className="App">
         <Switch>
             <Route path={'/'} component={HomePage}/>
         </Switch>
-
     </div>
   );
 }
+
 
 export default App;
