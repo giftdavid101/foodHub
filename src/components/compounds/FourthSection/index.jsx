@@ -9,7 +9,7 @@ const FourthSection = () => {
                 <div className={'fourth-section_fs-con_fs-text'}>
                     <div className={'fourth-section_fs-con_fs-text_fst-title'} >
                         <h6 className={'sth'}>
-                            <p >Our</p>
+                            <p>Our</p>
                             <p className={'st'}>Services!</p>
                         </h6>
                     </div>

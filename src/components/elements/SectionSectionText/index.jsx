@@ -6,8 +6,11 @@ const SecondSectionText = () => {
         <div className={'section-section-text content-container'}>
               <div className={'section-section-text_sst-title'} >
                   <h6 className={'sth'}>
-                      <span >Some top restaurant out for</span><span className={'st'}>&nbsp;dining out or in!</span>
+                      <p >Some top restaurant out for</p>
+                      <span className={'st'}>&nbsp;dining out or in!</span>
                   </h6>
+                  <p>
+                  </p>
               </div>
 
 

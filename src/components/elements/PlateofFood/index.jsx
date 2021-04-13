@@ -1,5 +1,6 @@
 import React from 'react';
 import './plateoffood.style.css'
+import Arrows from "../Arrows";
 
 // Todo add arrows
 
@@ -15,7 +16,7 @@ const PlateOfFood = () => {
                 </div>
             </div>
             <div className="plate-navigate-image">
-                arrow here
+                <Arrows/>
             </div>
         </>
     );

@@ -13,10 +13,10 @@ const SecondSectionCardContent = () => {
         <div className={'second-section-card-content'}>
             <div className={'second-section-card-content_ssct-con'}>
                 <div className={'second-section-card-content_ssct-con_card-holda'}>
-                    <div className={'second-section-card-content_ssct-con_card-holda_dotted-emage-div'}>
+                    <div className={'second-section-card-content_ssct-con_card-holda_dotted-emage-div a'}>
                         <img src={dotted} alt={'dotted'}/>
                     </div>
-                    <div className={'second-section-card-content_ssct-con_card-holda_dotted-emage-divv '}>
+                    <div className={'second-section-card-content_ssct-con_card-holda_dotted-emage-divv a '}>
                         <img src={dotted} alt={'dotted '}/>
                     </div>
 

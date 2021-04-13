@@ -1,4 +1,5 @@
 * {
+  /*outline: 1px dotted grey;*/
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -107,5 +108,19 @@ a {
   font-size: 42px;
   color: #2E266F;
 }
+.text-miniheading{
+  font-size:30px;
+  color: #2E266F;
+  font-weight: 30;
+}
+.text-mini-heading-div{
+  border-left: 15px solid red;
+  padding: 10px 0 0 10px;
+}
+.text-content{
+  width: 700px;
+  text-align: justify;
+}
+
 
 /*# sourceMappingURL=App.css.map */

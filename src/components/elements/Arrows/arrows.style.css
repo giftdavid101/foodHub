@@ -1,7 +1,6 @@
 .arrows {
-  position: absolute;
-  top: 500px;
-  right: 70px;
+  display: flex;
+  justify-content: flex-end;
 }
 .arrows_arrow-content {
   display: flex;

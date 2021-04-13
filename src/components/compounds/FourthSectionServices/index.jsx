@@ -1,10 +1,10 @@
 import React from 'react';
-import meeting from '../../meeting.svg'
-import dish from '../../dish.svg'
-import scooter from '../../scooter.svg'
+import meeting from '../../../meeting.svg'
+import dish from '../../../dish.svg'
+import scooter from '../../../scooter.svg'
 import './fourthsectionservices.style.css'
-import greaterArrow from '../../greaterthan arrow.svg'
-import lessArrow from '../../lessthan arrow.svg'
+import greaterArrow from '../../../greaterthan arrow.svg'
+import lessArrow from '../../../lessthan arrow.svg'
 
 const FourthSectionServices = () => {
     return (
