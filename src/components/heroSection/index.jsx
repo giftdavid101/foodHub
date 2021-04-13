@@ -2,19 +2,21 @@ import React from 'react';
 import Navbar from "../compounds/Navbar";
 import Location from "../elements/LocationIcon";
 import './hero.style.css'
+// import DiscoverRestaurantTopSection from "../compounds/DiscoverRestaurant-TopSection";
 
 
 const HeroSection = () => {
     return (
-        <section>
+        <section className='hero-section'>
+            <div className="back-drop">
+                <div/>
+                <div/>
+            </div>
             <div className="container">
                 <Navbar />
-            </div>
-            <div className={'container hero-background'}>
-                <div>
-                   1
+                <div className='hero-section__content'>
+                    {/*<DiscoverRestaurantTopSection/>*/}
                 </div>
-                <div>2</div>
             </div>
             <Location/>
         </section>

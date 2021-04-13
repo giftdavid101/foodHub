@@ -1,5 +1,21 @@
 .hero-section {
+  height: 100vh;
+  position: relative;
 
+  .back-drop{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 30%;
+    div:nth-child(1) {}
+    div:nth-child(2) {
+      background: #FE043C;
+    }
+  }
 }
 
 .hero-background {

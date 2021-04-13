@@ -3,10 +3,6 @@ import DiscoverRestaurantTopSection from "../../components/compounds/DiscoverRes
 import './homepage.style.css';
 import SecondSection from "../../components/compounds/SecondSection";
 import HeroSection from "../../components/heroSection";
-import FourthSection from "../../components/FourthSection";
-
-
-
 
 const HomePage = () => {
     return (
