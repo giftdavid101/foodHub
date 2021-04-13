@@ -1,34 +1,27 @@
-.plate-of-food {
-  width: 100%;
+.plate {
   position: relative;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
-.plate-of-food_emage-holder {
-  position: relative;
+.plate-dot-image {
+  width: 300px;
 }
-.plate-of-food_emage-holder_dot-emage-container {
-  width: 40%;
-  position: relative;
-  z-index: -1;
-}
-.plate-of-food_emage-holder_dot-emage-container .dotemage {
-  width: 100%;
-}
-.plate-of-food_emage-holder_food-emage {
-  width: 85%;
+.plate-focus-image {
   position: absolute;
-  top: 45px;
-  right: 100px;
-}
-.plate-of-food_emage-holder_food-emage .food {
   width: 100%;
-  height: 100%;
 }
-.plate-of-food_emage-holder_lettuce-emage {
+.plate-focus-image .food, .plate-focus-image .lettuce {
+  position: absolute;
+}
+.plate-focus-image .food {
+  top: 20px;
+  width: 94%;
+  image-rendering: optimizeSpeed;
+  image-resolution: snap;
+  max-width: 635px;
+}
+.plate-focus-image .lettuce {
   width: 50%;
-  position: absolute;
-  bottom: 117px;
-  right: 152px;
-  z-index: -1;
 }
 
 /*# sourceMappingURL=plateoffood.style.css.map */

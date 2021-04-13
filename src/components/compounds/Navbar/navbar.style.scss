@@ -1,28 +1,66 @@
-.navbar{
-  width:100%;
+.navbar {
+  transition: all .5s;
+  width: 100%;
   display: grid;
+  grid-template-areas: 'logo nav user';
   grid-template-columns: auto 1fr auto;
   gap: 30px;
   align-items: center;
-  padding: 30px 0;
+  padding: 20px 0;
 
   .site-logo {
-    margin-right: 50px;
+    grid-area: logo;
+    margin-right: 8px;
   }
 
-  &_nav-links{
+  &_nav-links {
+    grid-area: nav;
     display: grid;
     grid-auto-flow: column;
-    gap: 40px;
+    gap: 30px;
     width: fit-content;
+    @media screen and (max-width: 550px){
+      width: 100%;
+      justify-content: space-between;
+    }
   }
 
-  &_user{
+  &_user {
+    grid-area: user;
     display: flex;
     align-items: center;
-    &-emage {
+    justify-self: flex-end;
 
-margin-right: 20px;
+    > a:nth-child(2) {
+      margin-left: 20px;
+    }
+
+    &-emage {
+      display: block;
+      > img {
+        display: flex;
+      }
+    }
+  }
+
+
+  @media screen and (max-width: 950px){
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+            'logo user'
+            'nav nav';
+    gap: 10px;
+    padding: 10px 0;
+
+
+    &_nav-links {
+      gap: 10px;
+    }
+
+    &_user {
+      > a:nth-child(2) {
+        display: none;
+      }
     }
   }
 }
