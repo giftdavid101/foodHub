@@ -7,14 +7,7 @@ const HomePage = () => {
     return (
         <div className={'homepage'}>
             <HeroSection/>
-
-            <div className={'container'}>
-              <SecondSection/>
-            </div>
-
-            {/*<div className={'container'}>*/}
-            {/*    <SecondSection/>*/}
-            {/*</div>*/}
+            <SecondSection/>
 
         </div>
     );

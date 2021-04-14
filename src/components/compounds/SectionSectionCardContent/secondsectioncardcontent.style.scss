@@ -1,51 +1,21 @@
 .second-section-card-content {
   width: 100%;
+  margin: 50px 0;
 
   &_ssct-con {
-    width: 1280px;
     margin: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-
     &_card-holda {
-      width: 50%;
-      height: 50vh;
+      width: 55%;
       display: flex;
       justify-content: space-between;
       align-items: center;
       position: relative;
-
-      &_dotted-emage-div {
-        width: 40%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        img{
-          width: 100%;
-          height: 100%;
-
-        }
-      }
-
-      &_dotted-emage-divv {
-        width: 40%;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        z-index: -1;
-        img{
-          width: 100%;
-          height: 100%;
-
-        }
-      }
     }
   }
-
-
 }
 
 .card-emage-div {
@@ -54,12 +24,22 @@
   border-radius: 8px;
   position: relative;
 
-  &_ced-content{
-  background:#FE043C;
+  &_ced{
+    width: 100%;
+    height: 130px;
+    background:#FE043C;
     opacity: 0.8;
-position: absolute;
+    position: absolute;
     bottom: 0;
     color:white;
+    &_ced-content{
+      width: 80%;
+      margin: auto;
+      &_ced-text{
+        font-size: 10px;
+        margin: 0 0 15px 0;
+      }
+    }
   }
 }
 
@@ -73,8 +53,38 @@ position: absolute;
   width: 100%;
   //height: 100%;
 }
-.hytech{
-  color: white;
-  font-size:10px;
-  margin: 0  10px 0 0;
+
+.small-size-location-icon{
+width: 120px;
+}
+.dot-card{
+  width: 45%;
+  position: relative;
+  padding: 40px  0;
+
+  &_dottedemage-div{
+      width: 70%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      img{
+        width: 100%;
+        height: 100%;
+
+      }
+
+  }  &_dottedemage-div2{
+         width: 70%;
+         position: absolute;
+         bottom: 0;
+         right: 0;
+         z-index: 0;
+         img{
+           width: 100%;
+           height: 100%;
+
+         }
+
+  }
 }
