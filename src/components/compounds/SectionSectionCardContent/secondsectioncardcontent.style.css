@@ -40,14 +40,9 @@
   margin: 0 0 15px 0;
 }
 
-.less {
-  width: 70px;
-  height: 20px;
-}
-
 .lessthan {
   background: #FE043C;
-  width: 100%;
+  margin: 10px;
 }
 
 .small-size-location-icon {
@@ -80,6 +75,12 @@
 .dot-card_dottedemage-div2 img {
   width: 100%;
   height: 100%;
+}
+
+@media screen and (max-width: 950px) {
+  .second-section-card-content_ssct-con_card-holda {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=secondsectioncardcontent.style.css.map */

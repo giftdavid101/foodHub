@@ -4,4 +4,10 @@
   margin: 0 0 0 0;
 }
 
+@media screen and (max-width: 950px) {
+  .card {
+    height: 30vh;
+  }
+}
+
 /*# sourceMappingURL=card.style.css.map */

@@ -7,7 +7,7 @@ const BookNowBtn = () => {
         <div className={'book-now btn-squared-btn'} >
             <button className={'bbtn'}>
                 Book Now
-                <div style={{width:'20px', marginLeft:'5px'}}>
+                <div style={{marginLeft:'5px'}}>
                     <img src={arr} alt={'arrow'} />
                 </div>
             </button>
