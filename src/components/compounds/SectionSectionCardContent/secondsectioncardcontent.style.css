@@ -24,7 +24,6 @@
 }
 .card-emage-div_ced {
   width: 100%;
-  height: 130px;
   background: #FE043C;
   opacity: 0.8;
   position: absolute;
@@ -34,6 +33,11 @@
 .card-emage-div_ced_ced-content {
   width: 80%;
   margin: auto;
+}
+@media screen and (max-width: 400px) {
+  .card-emage-div_ced_ced-content {
+    width: 90%;
+  }
 }
 .card-emage-div_ced_ced-content_ced-text {
   font-size: 10px;
@@ -80,6 +84,23 @@
 @media screen and (max-width: 950px) {
   .second-section-card-content_ssct-con_card-holda {
     width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .second-section-card-content_ssct-con {
+    display: flex;
+    flex-direction: column;
+  }
+  .second-section-card-content_ssct-con_card-holda {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dot-card {
+    width: 65%;
+    position: relative;
+    padding: 40px 0;
   }
 }
 
