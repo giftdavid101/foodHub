@@ -35,7 +35,7 @@ const ThirdSection = () => {
                         <p>advance booking</p>
                     </div>
                       <SearchBarSquare/>
-                     <Select/>
+                      <Select/>
                      </div>
                  </div>
             </div>
