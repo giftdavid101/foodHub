@@ -1,21 +1,44 @@
 .third-section{
   width: 100%;
   height: 90vh;
-  background: wheat;
   display: flex;
+  background: #FFEDDE;
   justify-content: center;
   align-items: center;
+  position: relative;
+  .cabbage{
+    width: 600px;
+    position: absolute;
+    left: -200px;
+    z-index: 2;
+    @media screen and (max-width: 950px){
+    width: 400px;
+  }
+    img{
+      width: 100%;
+      height: 100%;
+
+    }
+  }
+  .cabbage2{
+    width:  13%;
+    position: absolute;
+    //right: -50px;
+    right: 0;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+
   &_ts-con{
     width: 80%;
     height: 60vh;
-
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     //margin: auto;
-
-
 
   }
 
@@ -24,21 +47,26 @@
   width: 20%;
   position: absolute;
   display: inline-block;
-
-
   bottom: 0;
   left: 0;
+  img{
+    width: 100%;
+    height: 100%;
+  }
 }
 .dotted-img2{
   width: 20%;
   position: absolute;
   display: inline-block;
-
   top: 0;
   right: 0;
+  img{
+    width: 100%;
+    height: 100%;
+  }
 }
 .white-div{
-  width: 95%;
+  width: 100%;
   height: 80%;
   background: white;
   z-index: 1;

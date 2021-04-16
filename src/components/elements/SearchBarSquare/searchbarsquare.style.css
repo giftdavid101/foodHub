@@ -1,0 +1,14 @@
+.search-bar {
+  display: flex;
+  background: white;
+  padding: 5px;
+  box-shadow: 5px 3px 5px 3px #FFEDDE;
+}
+.search-bar input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0 25px;
+}
+
+/*# sourceMappingURL=searchbarsquare.style.css.map */

@@ -4,7 +4,7 @@ import './bookbtn.style.css'
 
 const BookNowBtn = () => {
     return (
-        <div className={'book-now btn-squared-btn'} >
+        <div className={'book-now '} >
             <button className={'bbtn'}>
                 Book Now
                 <div style={{marginLeft:'5px'}}>
