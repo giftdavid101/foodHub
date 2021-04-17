@@ -15,7 +15,7 @@ const Select = () => {
                 </div>
                 <div>
                     <div>Guest</div>
-                    <input placeholder={'Guest'} type={'number'}/>
+                    <input placeholder={'2 people'} type={'number'}/>
                 </div>
 
             </form>

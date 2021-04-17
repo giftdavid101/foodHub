@@ -43,8 +43,6 @@ const FourthSectionServices = () => {
                                 <img src={greaterArrow} alt={'greaterarrow'}/>
                             </div>
                         </div>
-
-
                         <div className={'emage'}>
                             <img src={dish} alt={'meeting'}/>
                         </div>

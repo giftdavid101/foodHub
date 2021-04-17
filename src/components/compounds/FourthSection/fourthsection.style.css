@@ -1,13 +1,28 @@
 .fourth-section {
   width: 100%;
+  padding: 100px 0;
 }
 .fourth-section_fs-con {
   display: flex;
 }
+.fourth-section_fs-con_fs-text {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 950px) {
+  .fourth-section_fs-con_fs-text {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.fourth-section_fs-con_fs-text .tc {
+  margin: 10px 30px;
+  text-align: justify;
+}
 .fourth-section_fs-con_fs-text_fst-title {
   border-left: 15px solid #FE043C;
   padding: 0 0 0 30px;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 /*# sourceMappingURL=fourthsection.style.css.map */

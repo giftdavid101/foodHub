@@ -3,6 +3,7 @@ import './homepage.style.css';
 import SecondSection from "../../components/compounds/SecondSection";
 import HeroSection from "../../components/heroSection";
 import ThirdSection from "../../components/compounds/ThirdSection";
+import FourthSection from "../../components/compounds/FourthSection";
 
 const HomePage = () => {
     return (
@@ -10,6 +11,7 @@ const HomePage = () => {
             <HeroSection/>
             <SecondSection/>
             <ThirdSection/>
+            <FourthSection/>
 
         </div>
     );
