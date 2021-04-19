@@ -19,5 +19,13 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
 }
+@media screen and (max-width: 950px) {
+  .fifth-section_fifth-con .card-section .card-section-con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 /*# sourceMappingURL=fifthsection.style.css.map */
