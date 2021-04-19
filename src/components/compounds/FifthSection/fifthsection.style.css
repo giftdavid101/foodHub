@@ -1,0 +1,23 @@
+.fifth-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.fifth-section_fifth-con .fifth-section-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fifth-section_fifth-con .card-section {
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+}
+.fifth-section_fifth-con .card-section .card-section-con {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+/*# sourceMappingURL=fifthsection.style.css.map */
