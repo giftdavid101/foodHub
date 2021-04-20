@@ -77,8 +77,6 @@ const FifthSection = () => {
                       ))
                     }
                   </div>
-
-
                 </div>
             </div>
         </div>

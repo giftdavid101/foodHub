@@ -5,6 +5,7 @@ import HeroSection from "../../components/heroSection";
 import ThirdSection from "../../components/compounds/ThirdSection";
 import FourthSection from "../../components/compounds/FourthSection";
 import FifthSection from '../../components/compounds/FifthSection';
+import SixthSection from "../../components/compounds/SixthSection";
 
 const HomePage = () => {
     return (
@@ -14,8 +15,7 @@ const HomePage = () => {
             <ThirdSection/>
             <FourthSection/>
             <FifthSection/>
-
-
+            <SixthSection/>
         </div>
     );
 };

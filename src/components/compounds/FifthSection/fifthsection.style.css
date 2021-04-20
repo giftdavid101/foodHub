@@ -8,6 +8,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 15px 0;
 }
 .fifth-section_fifth-con .card-section {
   width: 100%;
