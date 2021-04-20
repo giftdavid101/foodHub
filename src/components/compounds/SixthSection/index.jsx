@@ -1,6 +1,7 @@
 import React from 'react';
 import './sixsection.style.css'
 import googlePlay from '../../../thumbnails/CTA Download app.png'
+import Phone from "../../elements/Phone";
 
 const SixthSection = () => {
     return (
@@ -14,14 +15,17 @@ const SixthSection = () => {
                      </h4>
                  </div>
                  <div className={'stc'}>
-                    <p className={'text'}>
+                    <p className={'stc_text'}>
                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                     </p>
-                 </div>
-                 <div className={'sixth-emage-div'}>
+                     </p>   <div className={'sixth-emage-div'}>
                      <img src={googlePlay} alt={'google play'}/>
                  </div>
+                 </div>
+
+             </div>
+             <div className={'ps'}>
+                 <Phone/>
              </div>
 
 
