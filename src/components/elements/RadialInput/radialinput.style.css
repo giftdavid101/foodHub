@@ -1,0 +1,26 @@
+.radial-input {
+  width: 80%;
+  margin: auto;
+  padding: 35px 0;
+}
+.radial-input_radial-input-form {
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  padding: 5px;
+  border-radius: 50px;
+}
+.radial-input_radial-input-form input {
+  width: 100%;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+}
+.radial-input_radial-input-form button {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=radialinput.style.css.map */

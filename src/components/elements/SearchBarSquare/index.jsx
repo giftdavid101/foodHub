@@ -5,7 +5,7 @@ const SearchBarSquare = ({btnText = 'Go', placeholder = 'search restaurant', onS
     return (
         <div>
             <form className={'search-bar'} onSubmit={onSubmit}>
-                <input placeholder={placeholder} onChange={onChange}/>
+                    <input placeholder={placeholder} onChange={onChange}/>
                 <button className={'btn-squared-btn'} onClick={onClick}>{btnText}</button>
             </form>
 

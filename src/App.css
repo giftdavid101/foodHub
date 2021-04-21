@@ -68,6 +68,8 @@ a {
   background: #FE043C;
   border: none;
   height: 45px;
+
+  border-radius:50px ;
 }
 
 .btn-squared-btn {
