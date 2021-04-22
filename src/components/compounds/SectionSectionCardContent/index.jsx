@@ -74,7 +74,7 @@ const SecondSectionCardContent = () => {
                                     <div style={{display: 'flex'}}>
                                         <div className={'small-size-location-icon'}>
                                             <LocationCity>
-                                                GachiBowli
+                                                Gachi Bowli
                                             </LocationCity>
                                         </div>
 

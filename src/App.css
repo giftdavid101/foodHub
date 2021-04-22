@@ -1,5 +1,5 @@
 * {
-  /*outline: 1px dotted grey;*/
+  outline: 1px dotted grey;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -68,8 +68,6 @@ a {
   background: #FE043C;
   border: none;
   height: 45px;
-
-  border-radius:50px ;
 }
 
 .btn-squared-btn {
@@ -121,8 +119,8 @@ a {
   padding: 10px 0 0 10px;
 }
 .text-content{
-  width: 1000px;
   text-align: justify;
+  margin: 33px 15px;
 }
 
 

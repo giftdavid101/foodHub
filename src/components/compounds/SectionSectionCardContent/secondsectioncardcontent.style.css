@@ -86,7 +86,7 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .second-section-card-content_ssct-con {
     display: flex;
     flex-direction: column;
