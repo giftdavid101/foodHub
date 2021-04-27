@@ -21,8 +21,6 @@ const SecondSection = () => {
                     </div>
                 </TitleText>
             </div>
-
-
            <SecondSectionCardContent/>
         </section>
     );

@@ -3,7 +3,6 @@ import './thirdsection.style.css';
 import dotted from '../../../thumbnails/dotted.png'
 import cabbage from '../../../thumbnails/—Pngtree—lettuce_1175257.png'
 import lettuce from '../../../thumbnails/lettuce.png'
-import SearchBar from "../../elements/SearchBar";
 import SearchBarSquare from "../../elements/SearchBarSquare";
 import Select from "../../elements/Select";
 
@@ -27,7 +26,7 @@ const ThirdSection = () => {
                 </div>
 
                  <div className={'white-div'}>
-                     <div>
+                     <div className={'wd-div'}>
                          <div style={{padding:'30px'}}>
                             <div className={'red-hr-line'}>
                                {''}

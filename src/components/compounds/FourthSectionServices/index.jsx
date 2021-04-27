@@ -36,12 +36,13 @@ const FourthSectionServices = () => {
                             sed do eiusmod.
                         </div>
                         <div className={'arr-div2'} >
-                            <div className={'null'}>{''}</div>
-                            <div className={'null'}>{''}</div>
-                            <div className={'null'}>{''}</div>
+
                             <div className={'less-arr'}>
                                 <img src={greaterArrow} alt={'greaterarrow'}/>
                             </div>
+                            <div className={'null'}>{''}</div>
+                            <div className={'null'}>{''}</div>
+                            <div className={'null'}>{''}</div>
                         </div>
                         <div className={'emage'}>
                             <img src={dish} alt={'meeting'}/>

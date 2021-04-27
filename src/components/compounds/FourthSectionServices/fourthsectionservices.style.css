@@ -54,7 +54,6 @@
 .arr-div2 {
   display: flex;
   position: relative;
-  padding: 40px;
   left: 120px;
 }
 
@@ -63,11 +62,17 @@
   position: absolute;
   left: 0;
 }
+.greater-arr img {
+  width: 100%;
+}
 
 .less-arr {
   width: 80px;
   position: absolute;
   right: 195px;
+}
+.less-arr img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=fourthsectionservices.style.css.map */
