@@ -8,6 +8,12 @@
   align-items: center;
   justify-content: space-between;
 }
+@media screen and (max-width: 400px) {
+  .fourth-section-services_fss-con {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .one {
   width: 100%;
@@ -23,6 +29,19 @@
   height: 100%;
 }
 
+.onee {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.onee .emage {
+  width: 20%;
+}
+.onee .emage img {
+  width: 100%;
+}
+
 .two {
   width: 100%;
   display: flex;
@@ -32,6 +51,11 @@
 .two .scooter {
   width: 50%;
   padding: 55px;
+}
+@media screen and (max-width: 400px) {
+  .two .scooter {
+    width: 100%;
+  }
 }
 .two .scooter img {
   width: 100%;
@@ -59,8 +83,6 @@
 
 .greater-arr {
   width: 80px;
-  position: absolute;
-  left: 0;
 }
 .greater-arr img {
   width: 100%;
@@ -68,8 +90,6 @@
 
 .less-arr {
   width: 80px;
-  position: absolute;
-  right: 195px;
 }
 .less-arr img {
   width: 100%;

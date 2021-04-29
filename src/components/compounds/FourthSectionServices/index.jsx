@@ -16,9 +16,9 @@ const FourthSectionServices = () => {
                             <img src={meeting} alt={'meeting'}/>
                         </div>
                         <div className={'arr-div1'}>
-                            <div className={'null'}>{''}</div>
-                            <div className={'null'}>{''}</div>
-                            <div className={'null'}>{''}</div>
+                            {/*<div className={'null'}>{''}</div>*/}
+                            {/*<div className={'null'}>{''}</div>*/}
+                            {/*<div className={'null'}>{''}</div>*/}
                             <div className={'greater-arr'}>
                                 <img src={lessArrow} alt={'greaterarrow'}/>
                             </div>
@@ -30,19 +30,20 @@ const FourthSectionServices = () => {
                         </div>
                     </div>
 
-                    <div className={'one'}>
+                    <div className={'onee'}>
                         <div className={'text-div'}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod.
                         </div>
+                        <div className={'less-arr'}>
+                        <img src={greaterArrow} alt={'greaterarrow'}/>
+                        </div>
                         <div className={'arr-div2'} >
 
-                            <div className={'less-arr'}>
-                                <img src={greaterArrow} alt={'greaterarrow'}/>
-                            </div>
-                            <div className={'null'}>{''}</div>
-                            <div className={'null'}>{''}</div>
-                            <div className={'null'}>{''}</div>
+
+                            {/*<div className={'null'}>{''}</div>*/}
+                            {/*<div className={'null'}>{''}</div>*/}
+                            {/*<div className={'null'}>{''}</div>*/}
                         </div>
                         <div className={'emage'}>
                             <img src={dish} alt={'meeting'}/>
@@ -51,8 +52,6 @@ const FourthSectionServices = () => {
 
                 </div>
                 <div className={'two'}>
-
-
                     <div className={'scooter'}>
                         <img src={scooter} alt={'meeting'}/>
                     </div>
