@@ -7,7 +7,10 @@
    display: flex;
     align-items: center;
     justify-content: space-between;
-
+   @media screen and (max-width: 400px) {
+    display: flex;
+     flex-direction: column;
+   }
   }
 }
 .one{
@@ -22,6 +25,20 @@
       height: 100%;
     }
   }
+}.onee{
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  //position: relative;
+  .emage{
+    width: 20%;
+    img{
+      width: 100%;
+      //height: 100%;
+    }
+  }
 }
 .two{
   width: 100%;
@@ -32,10 +49,15 @@
   .scooter{
     width: 50%;
     padding: 55px;
+    @media screen and (max-width: 400px) {
+     width: 100%;
+     }
     img{
       width:100%;
       height: 100%;
+
     }
+
 
   }
 }
@@ -43,6 +65,7 @@
   width: 200px;
   margin: 0 70px;
   text-align: justify;
+
   //padding-block-start: 100px;
 }
 
@@ -56,17 +79,21 @@
  }.arr-div2{
   display: flex;
   position: relative;
-  padding: 40px;
   left: 120px;
-
  }
 .greater-arr{
   width: 80px;
-  position: absolute;
-  left: 0;
+  //position: absolute;
+  //left: 0;
+  img{
+    width: 100%;
+  }
 }.less-arr{
   width: 80px;
-  position: absolute;
-  right: 195px;
+  ////position: absolute;
+  //right: 195px;
+   img{
+     width: 100%;
+   }
 }
 

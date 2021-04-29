@@ -13,9 +13,9 @@
   left: -200px;
   z-index: 2;
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 400px) {
   .third-section .cabbage {
-    width: 400px;
+    width: 300px;
   }
 }
 .third-section .cabbage img {
@@ -32,7 +32,7 @@
   height: 100%;
 }
 .third-section_ts-con {
-  width: 80%;
+  width: 90%;
   height: 60vh;
   display: flex;
   justify-content: center;
@@ -72,6 +72,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 400px) {
+  .white-div .wd-div {
+    width: 100%;
+  }
 }
 
 .red-hr-line {

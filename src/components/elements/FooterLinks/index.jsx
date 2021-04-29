@@ -5,10 +5,10 @@ import './footerlink.style.css'
 const FooterLinks = () => {
     return (
         <div className={'footer-link'}>
-            <Link className={'link'}>Product</Link>
-            <Link className={'link'}>Company</Link>
-            <Link className={'link'}>Learn more</Link>
-            <Link className={'link'}>Get in touch</Link>
+            <Link to={'/'} className={'link'}>Product</Link>
+            <Link to={'/'} className={'link'}>Company</Link>
+            <Link to={'/'} className={'link'}>Learn more</Link>
+            <Link to={'/'} className={'link'}>Get in touch</Link>
 
 
 
