@@ -1,0 +1,88 @@
+.third-section {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  background: #FFEDDE;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.third-section .cabbage {
+  width: 600px;
+  position: absolute;
+  left: -200px;
+  z-index: 2;
+}
+@media screen and (max-width: 400px) {
+  .third-section .cabbage {
+    width: 300px;
+  }
+}
+.third-section .cabbage img {
+  width: 100%;
+  height: 100%;
+}
+.third-section .cabbage2 {
+  width: 13%;
+  position: absolute;
+  right: 0;
+}
+.third-section .cabbage2 img {
+  width: 100%;
+  height: 100%;
+}
+.third-section_ts-con {
+  width: 90%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.dotted-img1 {
+  width: 20%;
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+}
+.dotted-img1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.dotted-img2 {
+  width: 20%;
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 0;
+}
+.dotted-img2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.white-div {
+  width: 100%;
+  height: 80%;
+  background: white;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 400px) {
+  .white-div .wd-div {
+    width: 100%;
+  }
+}
+
+.red-hr-line {
+  width: 100px;
+  padding: 10px;
+  background: #FE043C;
+}
+
+/*# sourceMappingURL=thirdsection.style.css.map */

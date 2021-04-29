@@ -1,0 +1,48 @@
+.phone {
+  width: 100%;
+}
+.phone img {
+  width: 100%;
+  height: 100%;
+}
+.phone_phone-con {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.phone_phone-con .phone-emage-div {
+  width: 300px;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.phone_phone-con .lettuce-and-dot {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone_phone-con .lettuce-and-dot .dotted-emage-div {
+  width: 150px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.phone_phone-con .lettuce-and-dot .lettuce-emage-div {
+  width: 300px;
+  position: absolute;
+  left: -46px;
+  bottom: -40px;
+  z-index: 0;
+}
+
+/*# sourceMappingURL=phone.style.css.map */

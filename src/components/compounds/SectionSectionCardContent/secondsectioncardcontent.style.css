@@ -1,34 +1,19 @@
 .second-section-card-content {
   width: 100%;
+  margin: 50px 0;
 }
 .second-section-card-content_ssct-con {
-  width: 1280px;
   margin: 20px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .second-section-card-content_ssct-con_card-holda {
-  width: 50%;
-  height: 50vh;
+  width: 55%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
-}
-.second-section-card-content_ssct-con_card-holda_dotted-emage-div {
-  width: 40%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-.second-section-card-content_ssct-con_card-holda_dotted-emage-divv {
-  width: 40%;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
 }
 
 .card-emage-div {
@@ -37,28 +22,86 @@
   border-radius: 8px;
   position: relative;
 }
-.card-emage-div_ced-content {
+.card-emage-div_ced {
+  width: 100%;
   background: #FE043C;
   opacity: 0.8;
   position: absolute;
   bottom: 0;
   color: white;
 }
-
-.less {
-  width: 70px;
-  height: 20px;
+.card-emage-div_ced_ced-content {
+  width: 80%;
+  margin: auto;
+}
+@media screen and (max-width: 400px) {
+  .card-emage-div_ced_ced-content {
+    width: 90%;
+  }
+}
+.card-emage-div_ced_ced-content_ced-text {
+  font-size: 10px;
+  margin: 0 0 15px 0;
 }
 
 .lessthan {
   background: #FE043C;
-  width: 100%;
+  margin: 10px;
 }
 
-.hytech {
-  color: white;
-  font-size: 10px;
-  margin: 0 10px 0 0;
+.small-size-location-icon {
+  width: 120px;
+}
+
+.dot-card {
+  width: 45%;
+  position: relative;
+  padding: 40px 0;
+}
+.dot-card_dottedemage-div {
+  width: 70%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.dot-card_dottedemage-div img {
+  width: 100%;
+  height: 100%;
+}
+.dot-card_dottedemage-div2 {
+  width: 70%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
+.dot-card_dottedemage-div2 img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 950px) {
+  .second-section-card-content_ssct-con_card-holda {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .second-section-card-content_ssct-con {
+    display: flex;
+    flex-direction: column;
+  }
+  .second-section-card-content_ssct-con_card-holda {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dot-card {
+    width: 65%;
+    position: relative;
+    padding: 40px 0;
+  }
 }
 
 /*# sourceMappingURL=secondsectioncardcontent.style.css.map */

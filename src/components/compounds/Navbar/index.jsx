@@ -1,34 +1,27 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './navbar.style.css';
+import {accountNameToggle} from "../../../helpers/accountNameToggle";
 
 
-
-const Navbar= (absolute) => {
+const Navbar = (absolute) => {
     return (
-        <div className={`navbar ${absolute?'navbar--is-absolute':''} content-container`}>
-            <div className={'navbar_navbar-con '}>
-                <Link className={'navbar_logo '} to={'/'}>FoodHub</Link>
-                <div className={'navbar_nav-links'}>
-                    <Link className={'lnk-margin'} to={'/'}>Home</Link>
-                    <Link  className={'lnk-margin'} to={'/about'}>About Us</Link>
-                    <Link className={'lnk-margin'} to={'/contact'}>Contact Us</Link>
-                    <Link className={'lnk-margin'} to={'/menu'}>Menu</Link>
-                    <Link className={'lnk-margin'} to={'/login'}>Login</Link>
-                </div>
+        <div className={`navbar ${absolute ? '' : ''}`}>
+            <Link className={'site-logo'} to={'/'}>FoodHub</Link>
 
-                <div className={'navbar_user'}>
-                    <div className={'navbar_user_user-emage'}>
-                        <img src={'/assets/imgs/Userpic.png'} alt={'user'} />
-                    </div>
-                    <Link to={'/user'}>User</Link>
+            <div className={'navbar_nav-links'}>
+                <Link className={''} to={'/'}>Home</Link>
+                <Link className={''} to={'/about'}>About Us</Link>
+                <Link className={''} to={'/contact'}>Contact Us</Link>
+                <Link className={''} to={'/menu'}>Menu</Link>
+                <Link className={''} to={'/login'}>Login</Link>
             </div>
-
+            <div className={'navbar_user'}>
+                <Link className={'navbar_user-emage'} to={'/user'}>
+                    <img src={'/assets/imgs/Userpic.png'} alt={'user'}/>
+                </Link>
+                <Link to={'/user'}>{accountNameToggle('Gift Fagami David')}</Link>
             </div>
-
-
-
-
         </div>
     );
 };

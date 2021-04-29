@@ -1,0 +1,10 @@
+.footer-link {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.footer-link .link {
+  margin: 5px 10px;
+}
+
+/*# sourceMappingURL=footerlink.style.css.map */

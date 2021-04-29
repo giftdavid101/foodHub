@@ -1,18 +1,15 @@
-.location {
-  width: 10%;
-  padding: 0 20px;
+.location-tag {
   background: #FE043C;
+  padding: 10px;
   color: white;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  position: absolute;
-  top:500px;
+  display: flex;
+  align-items: center;
+  max-width: 200px;
+  margin: 20px 0;
 
-  &_location-name {
-    display: flex;
+  > svg {
+
   }
-
-}
-.hybrad{
-  margin: 5px;
 }

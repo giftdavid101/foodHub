@@ -1,28 +1,23 @@
 import React from 'react';
-import DiscoverRestaurantTopSection from "../../components/compounds/DiscoverRestaurant-TopSection";
 import './homepage.style.css';
-import Navbar from "../../components/compounds/Navbar";
-import Location from "../../components/elements/LocationIcon";
 import SecondSection from "../../components/compounds/SecondSection";
-
-
+import HeroSection from "../../components/heroSection";
+import ThirdSection from "../../components/compounds/ThirdSection";
+import FourthSection from "../../components/compounds/FourthSection";
+import FifthSection from '../../components/compounds/FifthSection';
+import SixthSection from "../../components/compounds/SixthSection";
+import Footer from "../../components/compounds/Footer";
 
 const HomePage = () => {
     return (
-        <div className={'homepage container '}>
-            <Navbar absolute/>
-             <Location/>
-
-            <div className={'content-container'}>
-                <DiscoverRestaurantTopSection/>
-            </div>
-
-            <div className={'content-container'}>
-             <SecondSection/>
-            </div>
-
-
-
+        <div className={'homepage'}>
+            <HeroSection/>
+            <SecondSection/>
+            <ThirdSection/>
+            <FourthSection/>
+            <FifthSection/>
+            <SixthSection/>
+            <Footer/>
         </div>
     );
 };

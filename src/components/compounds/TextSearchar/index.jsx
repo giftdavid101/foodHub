@@ -5,10 +5,8 @@ import SearchBar from "../../elements/SearchBar";
 const TextSearchBar = () => {
     return (
         <div className={'text-searchbar'}>
-
                 <TopSectionText/>
                 <SearchBar/>
-
         </div>
     );
 };

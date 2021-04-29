@@ -1,0 +1,30 @@
+.fourth-section{
+  width: 100%;
+  padding: 10px 0;
+&_fs-con{
+  display: flex;
+  &_fs-text{
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 950px) {
+      display: flex;
+      flex-direction: column;
+    }
+    .tc{
+      margin: 10px 30px;
+      text-align: justify;
+    }
+    &_fst-title{
+      border-left:15px solid  #FE043C;
+      padding: 0 0 0 30px;
+      font-size: 40px;
+
+    }
+  }
+
+}
+
+}
+@media screen and (max-width: 950px){
+
+}

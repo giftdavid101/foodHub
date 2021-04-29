@@ -1,0 +1,99 @@
+.fourth-section-services{
+  width:100%;
+  margin: 50px 0;
+
+  &_fss-con{
+    width: 70%;
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+   @media screen and (max-width: 400px) {
+    display: flex;
+     flex-direction: column;
+   }
+  }
+}
+.one{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  .emage{
+    width: 20%;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}.onee{
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  //position: relative;
+  .emage{
+    width: 20%;
+    img{
+      width: 100%;
+      //height: 100%;
+    }
+  }
+}
+.two{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .scooter{
+    width: 50%;
+    padding: 55px;
+    @media screen and (max-width: 400px) {
+     width: 100%;
+     }
+    img{
+      width:100%;
+      height: 100%;
+
+    }
+
+
+  }
+}
+.scooter-text-div{
+  width: 200px;
+  margin: 0 70px;
+  text-align: justify;
+
+  //padding-block-start: 100px;
+}
+
+
+.arr-div1{
+  display: flex;
+  position: relative;
+  padding: 40px;
+  right: 0;
+
+ }.arr-div2{
+  display: flex;
+  position: relative;
+  left: 120px;
+ }
+.greater-arr{
+  width: 80px;
+  //position: absolute;
+  //left: 0;
+  img{
+    width: 100%;
+  }
+}.less-arr{
+  width: 80px;
+  ////position: absolute;
+  //right: 195px;
+   img{
+     width: 100%;
+   }
+}
+

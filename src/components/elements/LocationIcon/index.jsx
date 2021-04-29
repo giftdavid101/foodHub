@@ -1,14 +1,15 @@
 import React from 'react';
 import './locationicon.style.css'
-import {MdLocationOn} from 'react-icons/all'
 
+import LocationCity from "../LocationCity";
+
+// Todo make reusable
 const Location = () => {
     return (
-        <div className={'location'}>
-             <div className={'location_location-name'}>
-                 <MdLocationOn size={35}/>
-                 <span className={'hybrad'}>Hydrabad</span>
-             </div>
+        <div className={'location-tag'}>
+          <LocationCity>
+              Hybrad
+          </LocationCity>
         </div>
     );
 };

@@ -1,12 +1,12 @@
 import React from 'react';
 import './searchbar.style.css'
 
-const SearchBar = () => {
+const SearchBar = ({btnText = 'Go', placeholder = '', onSubmit, onChange, onClick}) => {
     return (
-        <div className={'search-bar'}>
-            <input placeholder={'search restaurant, food'}/>
-            <button> Go</button>
-        </div>
+        <form className={'search-bar'} onSubmit={onSubmit}>
+            <input placeholder={placeholder} onChange={onChange}/>
+            <button className={'btn-radius-btn'} onClick={onClick}>{btnText}</button>
+        </form>
     );
 };
 

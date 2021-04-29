@@ -1,19 +1,13 @@
-.location {
-  width: 10%;
-  padding: 0 20px;
+.location-tag {
   background: #FE043C;
+  padding: 10px;
   color: white;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  position: absolute;
-  top: 500px;
-}
-.location_location-name {
   display: flex;
-}
-
-.hybrad {
-  margin: 5px;
+  align-items: center;
+  max-width: 200px;
+  margin: 20px 0;
 }
 
 /*# sourceMappingURL=locationicon.style.css.map */

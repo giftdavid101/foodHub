@@ -1,0 +1,12 @@
+.form-select {
+  margin: 30px 0;
+  display: flex;
+}
+.form-select div {
+  margin: 0 5px;
+}
+.form-select div input {
+  border: none;
+}
+
+/*# sourceMappingURL=select.style.css.map */

@@ -1,0 +1,98 @@
+.fourth-section-services {
+  width: 100%;
+  margin: 50px 0;
+}
+.fourth-section-services_fss-con {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 400px) {
+  .fourth-section-services_fss-con {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.one {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.one .emage {
+  width: 20%;
+}
+.one .emage img {
+  width: 100%;
+  height: 100%;
+}
+
+.onee {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.onee .emage {
+  width: 20%;
+}
+.onee .emage img {
+  width: 100%;
+}
+
+.two {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.two .scooter {
+  width: 50%;
+  padding: 55px;
+}
+@media screen and (max-width: 400px) {
+  .two .scooter {
+    width: 100%;
+  }
+}
+.two .scooter img {
+  width: 100%;
+  height: 100%;
+}
+
+.scooter-text-div {
+  width: 200px;
+  margin: 0 70px;
+  text-align: justify;
+}
+
+.arr-div1 {
+  display: flex;
+  position: relative;
+  padding: 40px;
+  right: 0;
+}
+
+.arr-div2 {
+  display: flex;
+  position: relative;
+  left: 120px;
+}
+
+.greater-arr {
+  width: 80px;
+}
+.greater-arr img {
+  width: 100%;
+}
+
+.less-arr {
+  width: 80px;
+}
+.less-arr img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=fourthsectionservices.style.css.map */

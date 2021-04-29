@@ -1,0 +1,39 @@
+.fifth-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+
+
+  &_fifth-con{
+    .fifth-section-title{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 15px 0
+    }
+
+
+   .card-section{
+     width: 100%;
+     max-width: 100%;
+     margin: auto;
+
+     .card-section-con{
+       //margin: auto;
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-gap: 20px;
+        @media screen and (max-width: 950px){
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+
+        }
+     }
+
+   }
+  }
+}

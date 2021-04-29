@@ -1,25 +1,13 @@
 .search-bar {
-  width: 51%;
   display: flex;
-  background: wheat;
+  background: white;
+  padding: 5px;
 }
 .search-bar input {
   width: 100%;
-  padding: 25px;
   border: none;
-  background: wheat;
   outline: none;
-}
-.search-bar button {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  background: #FE043C;
-  border: none;
-  border-top-left-radius: 30px;
-  padding: 14px 35px;
-  margin: 5px;
-  float: right;
+  padding: 0 25px;
 }
 
 /*# sourceMappingURL=searchbar.style.css.map */

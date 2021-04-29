@@ -2,7 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin: 0 5px 10px 0;
+  padding: 10px 5px;
+  border-Bottom-Right-Radius: 10px;
+}
+
+@media screen and (max-width: 950px) {
+  .bbtn {
+    padding: 0 5px;
+    margin: 3px 8px;
+  }
 }
 
 /*# sourceMappingURL=bookbtn.style.css.map */
