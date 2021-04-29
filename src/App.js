@@ -1,14 +1,18 @@
 import React from 'react';
+import {Switch, Route} from 'react-router-dom';
+import HomePage from "./pages/Homepage";
 import './App.css';
-import Navbar from "./components/compounds/Navbar";
 
 
 function App() {
   return (
     <div className="App">
-        <Navbar/>
+        <Switch>
+            <Route path={'/'} component={HomePage}/>
+        </Switch>
     </div>
   );
 }
+
 
 export default App;

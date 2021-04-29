@@ -1,0 +1,9 @@
+.social-accounts {
+  display: flex;
+}
+.social-accounts .a-link {
+  margin: 5px 10px;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=social-accounts.style.css.map */

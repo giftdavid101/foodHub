@@ -1,0 +1,33 @@
+.fifth-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.fifth-section_fifth-con .fifth-section-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+.fifth-section_fifth-con .card-section {
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+}
+.fifth-section_fifth-con .card-section .card-section-con {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+@media screen and (max-width: 950px) {
+  .fifth-section_fifth-con .card-section .card-section-con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=fifthsection.style.css.map */

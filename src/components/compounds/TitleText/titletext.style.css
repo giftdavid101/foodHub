@@ -1,0 +1,15 @@
+.title-text {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 950px) {
+  .title-text {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=titletext.style.css.map */

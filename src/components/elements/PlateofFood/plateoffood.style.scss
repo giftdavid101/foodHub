@@ -1,0 +1,30 @@
+.plate {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+
+  &-dot-image {
+    width: 300px;
+  }
+
+  &-focus-image {
+    position: absolute;
+    width: 100%;
+
+    .food, .lettuce {
+      position: absolute;
+    }
+
+    .food {
+      top: 20px;
+      width: 94%;
+      image-rendering: optimizeSpeed;
+      image-resolution: snap;
+      max-width: 635px;
+    }
+
+    .lettuce {
+      width: 50%;
+    }
+  }
+}

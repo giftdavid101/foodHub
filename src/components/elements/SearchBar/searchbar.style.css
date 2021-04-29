@@ -1,0 +1,13 @@
+.search-bar {
+  display: flex;
+  background: white;
+  padding: 5px;
+}
+.search-bar input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0 25px;
+}
+
+/*# sourceMappingURL=searchbar.style.css.map */

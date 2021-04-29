@@ -1,0 +1,12 @@
+.arrows{
+  display: flex;
+  justify-content: flex-end;
+  &_arrow-content{
+    display: flex;
+  }
+
+}
+.arrow{
+  width: 30%;
+  margin: 0 15px;
+}

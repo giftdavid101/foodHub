@@ -1,0 +1,73 @@
+.fourth-section-services {
+  width: 100%;
+  margin: 50px 0;
+}
+.fourth-section-services_fss-con {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.one {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.one .emage {
+  width: 20%;
+}
+.one .emage img {
+  width: 100%;
+  height: 100%;
+}
+
+.two {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.two .scooter {
+  width: 50%;
+  padding: 55px;
+}
+.two .scooter img {
+  width: 100%;
+  height: 100%;
+}
+
+.scooter-text-div {
+  width: 200px;
+  margin: 0 70px;
+  text-align: justify;
+}
+
+.arr-div1 {
+  display: flex;
+  position: relative;
+  padding: 40px;
+  right: 0;
+}
+
+.arr-div2 {
+  display: flex;
+  position: relative;
+  padding: 40px;
+  left: 120px;
+}
+
+.greater-arr {
+  width: 80px;
+  position: absolute;
+  left: 0;
+}
+
+.less-arr {
+  width: 80px;
+  position: absolute;
+  right: 195px;
+}
+
+/*# sourceMappingURL=fourthsectionservices.style.css.map */

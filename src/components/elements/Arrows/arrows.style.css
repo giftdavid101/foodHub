@@ -1,0 +1,14 @@
+.arrows {
+  display: flex;
+  justify-content: flex-end;
+}
+.arrows_arrow-content {
+  display: flex;
+}
+
+.arrow {
+  width: 30%;
+  margin: 0 15px;
+}
+
+/*# sourceMappingURL=arrows.style.css.map */

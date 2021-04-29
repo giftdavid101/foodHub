@@ -1,0 +1,21 @@
+.menu-card {
+  width: 350px;
+  height: 400px;
+  background: white;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.menu-card .menu-card-emage-div img {
+  width: 100%;
+  height: 100%;
+}
+.menu-card .menu-card-content {
+  padding: 20px;
+}
+.menu-card .menu-card-content .menu-card-title {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=menucard.style.css.map */
